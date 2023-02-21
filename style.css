@@ -11,6 +11,12 @@ Style the element with id="camera", "camera-view", "camera-device", "photo-displ
     object-fit: contain; /* The content is scaled to maintain its aspect ratio while fitting within the element's content box */
     height: 100%;
     width: 100%;
+    
+}
+/*
+Style the element with id="camera-view", "camera-device", "photo-display"
+*/
+#camera-view, #camera-device, #photo-display{
     transform: scaleX(-1);
 }
 
